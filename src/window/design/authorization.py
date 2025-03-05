@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'window_qt/authorization_window.ui'
+# Form implementation generated from reading ui file 'authorization_window.ui'
 #
 # Created by: PyQt5 UI code generator 5.15.10
 #
@@ -14,7 +14,7 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_AuthorizaionWindow(object):
     def setupUi(self, AuthorizaionWindow):
         AuthorizaionWindow.setObjectName("AuthorizaionWindow")
-        AuthorizaionWindow.resize(505, 391)
+        AuthorizaionWindow.resize(505, 394)
         AuthorizaionWindow.setStyleSheet(" QLineEdit {\n"
 "        background-color: #FFFFFF;\n"
 "        color: black;\n"
@@ -58,7 +58,7 @@ class Ui_AuthorizaionWindow(object):
         self.icon_pixmap.setMaximumSize(QtCore.QSize(48, 48))
         self.icon_pixmap.setBaseSize(QtCore.QSize(48, 48))
         self.icon_pixmap.setText("")
-        self.icon_pixmap.setPixmap(QtGui.QPixmap("window_qt/../image/Черновик.ico"))
+        self.icon_pixmap.setPixmap(QtGui.QPixmap("../image/Черновик.ico"))
         self.icon_pixmap.setScaledContents(True)
         self.icon_pixmap.setObjectName("icon_pixmap")
         self.horizontalLayout.addWidget(self.icon_pixmap)
@@ -122,7 +122,7 @@ class Ui_AuthorizaionWindow(object):
 
     def retranslateUi(self, AuthorizaionWindow):
         _translate = QtCore.QCoreApplication.translate
-        AuthorizaionWindow.setWindowTitle(_translate("AuthorizaionWindow", "Dialog"))
+        AuthorizaionWindow.setWindowTitle(_translate("AuthorizaionWindow", "Авторизация"))
         self.header_label.setText(_translate("AuthorizaionWindow", "Черновик"))
         self.label_2.setText(_translate("AuthorizaionWindow", "Пароль"))
         self.label.setText(_translate("AuthorizaionWindow", "Логин"))

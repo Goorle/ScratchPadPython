@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'window_qt/main_window.ui'
+# Form implementation generated from reading ui file 'main_window.ui'
 #
 # Created by: PyQt5 UI code generator 5.15.10
 #
@@ -77,7 +77,7 @@ class Ui_MainWindow(object):
         self.icon_pixmap.setMaximumSize(QtCore.QSize(48, 48))
         self.icon_pixmap.setBaseSize(QtCore.QSize(48, 48))
         self.icon_pixmap.setText("")
-        self.icon_pixmap.setPixmap(QtGui.QPixmap("window_qt/../image/Черновик.ico"))
+        self.icon_pixmap.setPixmap(QtGui.QPixmap("../image/Черновик.ico"))
         self.icon_pixmap.setScaledContents(True)
         self.icon_pixmap.setObjectName("icon_pixmap")
         self.horizontalLayout.addWidget(self.icon_pixmap)
@@ -194,7 +194,7 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "Черновик"))
         self.header_label.setText(_translate("MainWindow", "Черновик"))
         item = self.tableWidget.verticalHeaderItem(0)
         item.setText(_translate("MainWindow", "New Row"))
